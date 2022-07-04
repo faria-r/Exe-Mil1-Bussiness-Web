@@ -1,0 +1,105 @@
+.sectionone{
+     margin:0;
+    
+}
+
+.form-data input{
+    width: 80%;
+    border-radius: 40% 40%;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 15px rgb(202, 172, 172);
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+
+.loginform{
+    margin-top: 20px;
+    height: 100%;
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 50px gray;
+    display: inline-block;
+    padding: 50px 15px;
+
+}
+.myhrline {
+    margin-top: 50px;}
+.image-gallery{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+.sub-header{
+    font-size: 40px;
+    font-weight: 700;
+}
+.img-content{
+    display: flex;
+    margin: 0%;
+}
+.gallery{
+    height: 200px; width: 25%;
+    margin:2%;
+    border: 1px solid black;
+    box-shadow: 5px 5px 35px rgb(87, 81, 81);
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+
+}
+.description{
+    margin-top: 0%;
+    padding: 10px 10px;
+    border: 1px solid gray;
+}
+.description p{
+    text-align: center;
+    font-weight: 400;
+}
+.boxes{
+    display: flex;
+}
+.main-box{
+    width: 40%;
+    height: 350px;
+    margin: 2% 5%;
+    border: 1px solid blueviolet;
+    background-image: conic-gradient(orange,tomato,yellow,rgb(255, 182, 182));
+}
+.sub-box{
+    height: 200px;
+    width: 80%;
+    position: relative;
+    top: 70px;left: 80px;
+    border: 1px solid blueviolet;border-radius: 5%;
+    background-image: linear-gradient(orange,tomato);
+    
+}
+.sub-box div{
+    border: 1px solid red;
+    border-radius: 5%;
+    width: 40%;
+    padding-left: 10px;
+    padding-bottom: 5%;
+    position: relative;
+    top: 30px;left:200px;
+    background-image: radial-gradient(circle,white,rgb(255, 59, 59),orange);
+}
+.sub-box a{
+    text-decoration: none;
+    background-image: linear-gradient(red,tomato);
+    padding: 10px 30px;
+    color: azure;
+    border-radius: 25% ;
+}
+.mini-box{
+    border: 1px solid red;
+    width: 40%;
+    padding-left: 10px;
+    padding-bottom: 5%;
+    position:relative;
+    top: 0;left: 0;bottom: 0;right: 0;
+    border-radius: 5%;
+    background-image: conic-gradient(orange,tomato);
+    
+}
